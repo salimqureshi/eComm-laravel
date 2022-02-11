@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -20,6 +21,6 @@ Route::get('/login', function () {
 });
 
 Route::post('/login',[UserController::class, "login"]);
-Route::get('/',[PostController::class, "index"]);
+Route::get('/',[ProductController::class, "index"]);
 
 // Route::view("/", "login");

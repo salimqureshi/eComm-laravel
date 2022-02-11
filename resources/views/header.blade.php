@@ -16,6 +16,7 @@
         <ul class="nav navbar-nav">
           <li><a href="#">Home</a></li>
           <li><a href="#">Orders</a></li>
+          <li><a href="#">Sales</a></li>
         </ul>
         <form class="navbar-form navbar-left">
           <div class="form-group">

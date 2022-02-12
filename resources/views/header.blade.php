@@ -18,11 +18,11 @@
           <li><a href="#">Orders</a></li>
           <li><a href="#">Sales</a></li>
         </ul>
-        <form class="navbar-form navbar-left">
+        <form action="/search" class="navbar-form navbar-left">
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
+            <input type="text" class="form-control search-box" name="query" placeholder="Search">
           </div>
-          <button type="submit" class="btn btn-default">Submit</button>
+          <button type="submit" class="btn btn-default">Search</button>
         </form>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">Add To Cart</a></li>
